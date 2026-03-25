@@ -51,12 +51,9 @@ Copy the links, can be copied using the two squares, and put them inside the pro
 
 #### Step 8: Enter and wait for the generated HTML file
 
-
 ![API Endpoints Prompt Result](image_steps/11.png)
 
-
 #### Step 9: Paste output in the HTML file and check results
-
 
 ![API Endpoints Prompt Page](image_steps/12.png)
 
@@ -69,3 +66,4 @@ Copy the links, can be copied using the two squares, and put them inside the pro
 
 `https://www.mclartynissanlr.com/ai-discovery-page/`
 
+![Reference Page](image_steps/15.png)
