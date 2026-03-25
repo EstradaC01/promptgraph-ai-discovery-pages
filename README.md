@@ -64,3 +64,8 @@ Copy the links, can be copied using the two squares, and put them inside the pro
 
 ![Example 1](image_steps/13.png)
 ![Example 2](image_steps/14.png)
+
+# Original reference
+
+`https://www.mclartynissanlr.com/ai-discovery-page/`
+
