@@ -5,81 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Discovery - Haselwood Auto Group</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background-color: #f9f9f9;
-    }
-
-    .inner-wysiwyg {
-      background: #fff;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    }
-
-    h1 {
-      color: #d71920;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-      border-left: 4px solid #d71920;
-      padding-left: 15px;
-      margin-top: 30px;
-    }
-
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    hr {
-      border: 0;
-      border-top: 1px solid #eee;
-      margin: 30px 0;
-    }
-
-    pre {
-      background: #272822;
-      color: #f8f8f2;
-      padding: 20px;
-      overflow-x: auto;
-      border-radius: 5px;
-      font-size: 14px;
-      border: 1px solid #ddd;
-      white-space: pre-wrap;
-      word-wrap: break-word;
-    }
-
-    summary {
-      font-weight: bold;
-      cursor: pointer;
-      padding: 10px;
-      background: #eee;
-      border-radius: 4px;
-    }
-
-    footer {
-      margin-top: 40px;
-      color: #888;
-      text-align: center;
-    }
-
-    .col-xs-12 {
-      width: 100%;
-    }
-  </style>
-
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -201,6 +126,60 @@
       "dateModified": "2026-02-03T15:06:16.760Z"
     }
   </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #d71920;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #eee;
+      margin: 30px 0;
+    }
+
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px;
+      background: #eee;
+      border-radius: 4px;
+    }
+
+    pre {
+      background: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #888;
+      text-align: center;
+    }
+
+    .col-xs-12 {
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -217,7 +196,7 @@
       <p><strong>Type:</strong> Car dealer (Ford, Honda, Toyota, Chevrolet, Jeep, Ram)</p>
       <p><strong>Phone:</strong> (360) 362-4410</p>
       <p><strong>Address:</strong> 950 West Hills Boulevard, Bremerton, WA 98312</p>
-      <p><strong>Website:</strong> <a href="https://www.haselwoodautogroup.com" target="_blank">https://www.haselwoodautogroup.com</a></p>
+      <p><strong>Website:</strong> <a href="https://www.haselwoodautogroup.com/locations/index.htm?utm_source=gbp&utm_medium=organic&utm_campaign=confluence" target="_blank">https://www.haselwoodautogroup.com</a></p>
       <p><strong>Rating:</strong> 3.4/5 (51 reviews)</p>
     </section>
 
@@ -238,17 +217,31 @@
 
     <hr>
 
-    <details open>
-      <summary>Raw Data (JSON-LD)</summary>
+    <details open="">
+      <summary>Raw Data (for API clients)</summary>
       <pre>
 {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
+  "@id": "https://promptgraph.ai/api/v1/haselwood-auto-group/business#organization",
   "inLanguage": "en-US",
   "name": "Haselwood Auto Group",
-  "description": "At Haselwood Auto Group, we pride ourselves on providing honest, upfront answers to your car questions...",
-  "url": "https://www.haselwoodautogroup.com",
+  "description": "At Haselwood Auto Group, we pride ourselves on providing honest, upfront answers to your car questions, making the buying process fast and easy. Our selection of used vehicles perfectly balances luxurious interior and exterior designs with impressive under-the-hood performance. With a vast inventory of used cars for sale, we’re confident you’ll find your next vehicle here.",
+  "url": "https://www.haselwoodautogroup.com/locations/index.htm?utm_source=gbp&utm_medium=organic&utm_campaign=confluence",
   "telephone": "(360) 362-4410",
+  "email": "gsjones.haselwood@gmail.com",
+  "additionalType": [
+    "Car dealer",
+    "Ram dealer",
+    "Ford dealer",
+    "Jeep dealer",
+    "Honda dealer",
+    "Truck dealer",
+    "Toyota dealer",
+    "Used car dealer",
+    "Auto repair shop",
+    "Chevrolet dealer"
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "950 West Hills Boulevard",
@@ -257,11 +250,94 @@
     "postalCode": "98312",
     "addressCountry": "US"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.5549005,
+    "longitude": -122.6781417
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "description": "Sun: 10:00am-7:00pm, Mon: 9:00am-8:00pm, Tue: 9:00am-8:00pm, Wed: 9:00am-8:00pm, Thu: 9:00am-8:00pm, Fri: 9:00am-8:00pm, Sat: 9:00am-8:00pm"
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": 3.4,
-    "reviewCount": 51
-  }
+    "reviewCount": 51,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "sameAs": [
+    "https://www.facebook.com/haselwoodautogroup/",
+    "https://www.instagram.com/haselwood_auto_group/",
+    "https://www.google.com/maps/place/?q=place_id:ChIJAQDw-v02kFQRFCK0gthVIp0"
+  ],
+  "potentialAction": [
+    {
+      "@type": "ReadAction",
+      "name": "Find Your Perfect Ride at Haselwood Auto Group",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/find-your-perfect-ride-at-haselwood-auto-group"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Haselwood Auto Group – Where Bremerton Drives Happy",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/haselwood-auto-group--where-bremerton-drives-happy"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Community‑Focused Auto Group with Exceptional Customer Care",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/communityfocused-auto-group-with-exceptional-customer-care"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "A Legacy of Local Care and Community Commitment",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/a-legacy-of-local-care-and-community-commitment"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Dedicated Support and Appreciation for the Military Families",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/dedicated-support-and-appreciation-for-the-military-families"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Quality Transportation for Every Budget",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/quality-transportation-for-every-budget"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "The Gold Standard for Certified and West Hills Pre-Owned Vehicles",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/the-gold-standard-for-certified-and-west-hills-pre-owned-vehicles"
+      }
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Instant Transparency with Modern Online Car Buying",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.haselwoodautogroup.com/instant-transparency-with-modern-online-car-buying"
+      }
+    }
+  ],
+  "dateModified": "2026-02-03T15:06:16.760Z"
 }
       </pre>
     </details>
@@ -269,7 +345,7 @@
     <hr>
 
     <footer>
-      <p><small>Powered by PromptGraph &copy; 2026</small></p>
+      <p><small>Powered by PromptGraph</small></p>
     </footer>
   </div>
 
