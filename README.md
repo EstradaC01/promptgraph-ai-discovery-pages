@@ -13,6 +13,7 @@
 [Abel A Roofing](./abel-a-roofing.html)
 [Acura of Springfield](./acura-of-springfield.html)
 [Amerion College Huntington](./amerion-college-huntington.html)
+[Bare Bones Furniture](./bare-bones-furniture-&-mattress.html)
 
 #### Step 1: Find the client in Promptgraph
 
