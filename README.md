@@ -1,5 +1,19 @@
 # PROMPTGRAPH-AI-DISCOVERY-PAGES
 
+## Used Gems
+
+#### AI Discovey Page Builder:
+
+[AI Discovery Page Builder](https://gemini.google.com/gem/1Ilyuot6Byl4YWE4r_gCu0cJrHEp9kH4J?usp=sharing)
+
+[AI Discovery Page Improvements](https://gemini.google.com/gem/1yTegMPHwAu-Pt9tPWceW_F0SdEYScGe1?usp=sharing)
+
+#### Expected output for AI Discovery Page Improvements
+
+[Abel A Roofing](./abel-a-roofing.html)
+[Acura of Springfield](./acura-of-springfield.html)
+[Amerion College Huntington](./amerion-college-huntington.html)
+
 #### Step 1: Find the client in Promptgraph
 
 ![Client Dashboard](image_steps/1.png)
