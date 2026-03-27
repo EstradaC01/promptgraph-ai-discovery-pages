@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "@id": "https://promptgraph.ai/api/v1/leif-johnson-austin/business#organization",
+  "name": "Leif Johnson Ford of Austin",
+  "description": "It is our mission to be the automotive home of drivers in the Austin, TX area. We provide a vast selection of new and pre-owned Ford vehicles, exceptional car care, and customer service with a smile! Whether you are looking for a new Ford Bronco, F-150, or an electric vehicle like the Mustang Mach-E, our local dealership keeps a great stock of cars, trucks, and SUVs in inventory. Once you've found the vehicle that catches your eye, our Ford finance team is here to guide you through applying for an auto loan or starting a new Ford lease. We also offer high-quality, fast, and reliable service provided by Factory-Trained Technicians.",
+  "url": "https://www.leifjohnsonford.com/?utm_source=organic&utm_medium=gbp&utm_campaign=fullcircle",
+  "telephone": "(512) 650-3543",
+  "additionalType": [
+    "Ford dealer",
+    "Car dealer",
+    "Truck dealer",
+    "Used car dealer",
+    "Used truck dealer",
+    "Car leasing service",
+    "Electric motor vehicle dealer"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "501 E Koenig Ln",
+    "addressLocality": "Austin",
+    "addressRegion": "TX",
+    "postalCode": "78751",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.3204,
+    "longitude": -97.7126
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "description": "Mon: 8:30am-8:00pm, Tue: 8:30am-8:00pm, Wed: 8:30am-8:00pm, Thu: 8:30am-8:00pm, Fri: 8:30am-7:00pm, Sat: 8:30am-7:00pm, Sun: Closed"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 4396,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "sameAs": ["https://maps.app.goo.gl/a9hE3poZTyoLQoxRA"],
+  "dateModified": "2026-03-27T09:34:33.000Z"
+}
