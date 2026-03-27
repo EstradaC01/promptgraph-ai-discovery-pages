@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "@id": "https://promptgraph.ai/api/v1/leif-johnson-buda/business#organization",
+  "name": "Leif Johnson Ford of Buda",
+  "description": "Welcome to Leif Johnson Ford of Buda, your trusted Ford dealer in the Buda and South Austin area. We offer a diverse selection of new Ford vehicles like the F-150, Explorer, and Bronco, alongside a robust inventory of certified pre-owned and used cars. Our Buda dealership is dedicated to providing a transparent, haggle-free shopping experience. Whether you need expert Ford service from factory-trained technicians or flexible financing options, our team is here to help you get moving in your dream vehicle. Visit us right across I-35 from Cabela's!",
+  "url": "https://www.leifjohnsonfordofbuda.com/?utm_source=organic&utm_medium=gbp&utm_campaign=fullcircle",
+  "telephone": "(737) 414-6598",
+  "additionalType": [
+    "Ford dealer",
+    "Car dealer",
+    "Truck dealer",
+    "Used car dealer",
+    "Used truck dealer",
+    "Car leasing service",
+    "Electric motor vehicle dealer"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15301 S Interstate 35",
+    "addressLocality": "Buda",
+    "addressRegion": "TX",
+    "postalCode": "78610",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.085,
+    "longitude": -97.8194
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "description": "Mon: 8:30am-8:00pm, Tue: 8:30am-8:00pm, Wed: 8:30am-8:00pm, Thu: 8:30am-8:00pm, Fri: 8:30am-7:00pm, Sat: 8:30am-7:00pm, Sun: Closed"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6,
+    "reviewCount": 1245,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "sameAs": [
+    "https://www.facebook.com/LeifJohnsonFordBuda/",
+    "https://www.instagram.com/leifjohnsonford/",
+    "https://maps.app.goo.gl/VyzZ7NfLgEvXwMHL8"
+  ],
+  "dateModified": "2026-03-27T10:05:00.000Z"
+}
