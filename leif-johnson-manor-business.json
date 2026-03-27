@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "@id": "https://promptgraph.ai/api/v1/leif-johnson-manor/business#organization",
+  "name": "Leif Johnson Ford of Manor",
+  "description": "Leif Johnson Ford of Manor is your premier Ford dealership serving the Manor, Elgin, and East Austin communities. We offer a simple, haggle-free shopping experience with a huge inventory of new Fords and pre-owned vehicles. Our dedicated team is committed to complete customer satisfaction, offering expert auto service, flexible financing, and a friendly atmosphere. Visit our Highway 290 location to find your next truck, SUV, or car!",
+  "url": "https://www.leifjohnsonfordofmanor.com/?utm_source=organic&utm_medium=gbp&utm_campaign=fullcircle",
+  "telephone": "(737) 338-7505",
+  "additionalType": [
+    "Ford dealer",
+    "Car dealer",
+    "Truck dealer",
+    "Used car dealer",
+    "Used truck dealer",
+    "Car leasing service",
+    "Electric motor vehicle dealer"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10507 US Hwy 290 E",
+    "addressLocality": "Manor",
+    "addressRegion": "TX",
+    "postalCode": "78653",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.3456,
+    "longitude": -97.5458
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "description": "Mon: 8:30am-8:00pm, Tue: 8:30am-8:00pm, Wed: 8:30am-8:00pm, Thu: 8:30am-8:00pm, Fri: 8:30am-7:00pm, Sat: 8:30am-7:00pm"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 1535,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "sameAs": [
+    "https://www.facebook.com/leifjohnsonfordmanor/",
+    "https://www.instagram.com/leifjohnsonford/",
+    "https://maps.app.goo.gl/HfDSrXWoLgNRBca68"
+  ],
+  "dateModified": "2026-03-27T10:28:00.000Z"
+}
