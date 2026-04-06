@@ -8,15 +8,11 @@
 
 - [Gemin Gem Instructions](./GEM.md)
 
-#### Expected output for AI Discovery Page Improvements
+#### Expected output for AI Discovery Pages
 
 - [Abel A Roofing](./abel-a-roofing.html)
 
-- [Acura of Springfield](./acura-of-springfield.html)
-
-- [Amerion College Huntington](./amerion-college-huntington.html)
-
-- [Bare Bones Furniture](./bare-bones-furniture-&-mattress.html)
+- [McLarty Nissan of Little Rock](./mclarty-nissan-of-little-rock.html)
 
 #### Step 1: Find the client in Promptgraph
 
@@ -50,14 +46,19 @@ Open the Gem:
 
 ![JSON Input](image_steps/8.png)
 
-#### Step 7: Afterwards, we need 6 links
+#### Step 7: Afterwards, we need 11 links
 
-- business
-- vehicles
-- prompts
-- gbp-context
-- well-known/ai-manifest.json
-- llms.txt
+- /business
+- /vehicles
+- /vehicles/{vin}
+- /prompts
+- /testimonials
+- /gbp-context
+- /site-content
+- /sitemap.xml
+- /robots.txt
+- /.well-known/ai-manifest.json
+- /llms.txt
 
 ![API Endpoints Links](image_steps/9.png)
 
@@ -78,10 +79,9 @@ Copy the links, can be copied using the two squares, and put them inside the pro
 # Other example results for reference
 
 ![Example 1](image_steps/13.png)
-![Example 2](image_steps/14.png)
 
 # Original reference
 
 `https://www.mclartynissanlr.com/ai-discovery-page/`
 
-![Reference Page](image_steps/15.png)
+![Reference Page](image_steps/14.png)
