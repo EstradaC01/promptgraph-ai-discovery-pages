@@ -1,5 +1,3 @@
-# GEM 1
-
 ### 🛠️ AI Discovery Architect & Automator: System Instructions
 
 **Role & Behavior:**
