@@ -2,18 +2,21 @@
 
 ## Used Gems
 
-#### AI Discovey Page Builder:
+#### AI Discovery Page Builder:
 
-[AI Discovery Page Builder](https://gemini.google.com/gem/1Ilyuot6Byl4YWE4r_gCu0cJrHEp9kH4J?usp=sharing)
+- [Gemini Gem](https://gemini.google.com/gem/1YB-V9Nqc9pkiCDta4IUmfm4CkmRIO2Hr?usp=sharing)
 
-[AI Discovery Page Improvements](https://gemini.google.com/gem/1yTegMPHwAu-Pt9tPWceW_F0SdEYScGe1?usp=sharing)
+- [Gemin Gem Instructions](./GEM.md)
 
 #### Expected output for AI Discovery Page Improvements
 
-[Abel A Roofing](./abel-a-roofing.html)
-[Acura of Springfield](./acura-of-springfield.html)
-[Amerion College Huntington](./amerion-college-huntington.html)
-[Bare Bones Furniture](./bare-bones-furniture-&-mattress.html)
+- [Abel A Roofing](./abel-a-roofing.html)
+
+- [Acura of Springfield](./acura-of-springfield.html)
+
+- [Amerion College Huntington](./amerion-college-huntington.html)
+
+- [Bare Bones Furniture](./bare-bones-furniture-&-mattress.html)
 
 #### Step 1: Find the client in Promptgraph
 
@@ -21,7 +24,7 @@
 
 #### Step 2: Create an HTML file, name should be the same as the SLUG IDENTIFIER (ex. a-abel-roofing.html)
 
-`a-abel-roofing.html
+`a-abel-roofing.html`
 
 #### Step 3: Go to API Endpoints tab
 
