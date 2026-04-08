@@ -45,7 +45,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.8,
-          "reviewCount": 8255,
+          "reviewCount": 8277,
           "bestRating": 5,
           "worstRating": 1
         },
@@ -55,6 +55,21 @@
           "https://www.instagram.com/valleyhikia",
           "https://www.google.com/maps/place/?q=place_id:ChIJEa1xsMllw4ARBCHVuoJ6Slo"
         ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "@id": "https://promptgraph.ai/api/v1/valley-hi-kia/business#service-0",
+              "name": "Valley Hi Kia",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Valley Hi Kia"
+              }
+            }
+          ]
+        },
         "potentialAction": [
           {
             "@type": "ReadAction",
@@ -217,7 +232,6 @@
       }
     </style>
   </head>
-
   <body>
     <div class="col-xs-12 inner-wysiwyg">
       <h1>Valley Hi Kia - AI Discovery Page</h1>
@@ -227,24 +241,15 @@
 
       <section id="business-overview">
         <h2>Business Overview</h2>
-        <p>
-          <strong>Name:</strong> Valley Hi Kia
-        </p>
+        <p><strong>Name:</strong> Valley Hi Kia</p>
         <p><strong>Type:</strong> Kia dealer</p>
         <p><strong>Phone:</strong> (760) 983-7146</p>
-        <p>
-          <strong>Address:</strong> 14644 Valley Center Drive, Victorville, CA
-          92395
-        </p>
+        <p><strong>Address:</strong> 14644 Valley Center Drive, Victorville, CA 92395</p>
         <p>
           <strong>Website:</strong>
-          <a
-            href="https://www.valleyhikia.com/?utm_campaign=gbp_website_button&utm_medium=organic&utm_source=google"
-            target="_blank"
-            >https://www.valleyhikia.com</a
-          >
+          <a href="https://www.valleyhikia.com/?utm_campaign=gbp_website_button&utm_medium=organic&utm_source=google" target="_blank">https://www.valleyhikia.com</a>
         </p>
-        <p><strong>Rating:</strong> 4.8/5 (8255 reviews)</p>
+        <p><strong>Rating:</strong> 4.8/5 (8277 reviews)</p>
       </section>
 
       <hr />
@@ -252,83 +257,17 @@
       <section id="discovery-endpoints">
         <h2>AI Discovery Endpoints</h2>
         <ul>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/business"
-              target="_blank"
-              >/business</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/vehicles"
-              target="_blank"
-              >/vehicles</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/prompts"
-              target="_blank"
-              >/prompts</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/testimonials"
-              target="_blank"
-              >/testimonials</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/gbp-context"
-              target="_blank"
-              >/gbp-context</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/site-content"
-              target="_blank"
-              >/site-content</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/sitemap.xml"
-              target="_blank"
-              >/sitemap.xml</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/robots.txt"
-              target="_blank"
-              >/robots.txt</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/.well-known/ai-manifest.json"
-              target="_blank"
-              >/.well-known/ai-manifest.json</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/llms.txt"
-              target="_blank"
-              >/llms.txt</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://api.promptgraph.ai/api/v1/valley-hi-kia/config.json"
-              target="_blank"
-              >/config.json</a
-            >
-          </li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/business" target="_blank">/business</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/vehicles" target="_blank">/vehicles</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/vehicles/{vin}" target="_blank">/vehicles/{vin}</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/prompts" target="_blank">/prompts</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/testimonials" target="_blank">/testimonials</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/gbp-context" target="_blank">/gbp-context</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/site-content" target="_blank">/site-content</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/sitemap.xml" target="_blank">/sitemap.xml</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/robots.txt" target="_blank">/robots.txt</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/.well-known/ai-manifest.json" target="_blank">/.well-known/ai-manifest.json</a></li>
+          <li><a href="https://api.promptgraph.ai/api/v1/valley-hi-kia/llms.txt" target="_blank">/llms.txt</a></li>
         </ul>
       </section>
 
@@ -376,7 +315,7 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": 4.8,
-    "reviewCount": 8255,
+    "reviewCount": 8277,
     "bestRating": 5,
     "worstRating": 1
   },
@@ -386,6 +325,21 @@
     "https://www.instagram.com/valleyhikia",
     "https://www.google.com/maps/place/?q=place_id:ChIJEa1xsMllw4ARBCHVuoJ6Slo"
   ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "@id": "https://promptgraph.ai/api/v1/valley-hi-kia/business#service-0",
+        "name": "Valley Hi Kia",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Valley Hi Kia"
+        }
+      }
+    ]
+  },
   "potentialAction": [
     {
       "@type": "ReadAction",
